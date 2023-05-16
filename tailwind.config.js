@@ -15,6 +15,7 @@ module.exports = {
         "game-blue": "#403EC1",
         "play-green": "#7EC3A9",
         "track-pink": "#EB4983",
+        "input-field": "#FBFAF6",
       },
     },
   },

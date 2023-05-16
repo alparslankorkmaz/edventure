@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Content from "@/components/Content";
 import HowWeWork from "@/components/HowWeWork";
 import CallToAction from "@/components/CallToAction";
+import ContactUs from "@/components/ContactUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Content />
       <HowWeWork />
       <CallToAction />
+      <ContactUs />
     </main>
   );
 }
