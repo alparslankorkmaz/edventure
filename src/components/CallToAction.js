@@ -1,7 +1,7 @@
 export default function CallToAction() {
   return (
     <>
-      <div className="relative mb-48">
+      <div className="call-to-action relative mb-48">
         <div className="z-0">
           {" "}
           <img src="/images/hero-pattern-cta.webp" alt="pattern" />
