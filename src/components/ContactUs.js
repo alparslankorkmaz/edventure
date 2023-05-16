@@ -63,7 +63,7 @@ function ContactUs() {
                   type="text"
                   name="name"
                   id="name"
-                  className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-3xl"
+                  className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-xl"
                   required
                 />
                 <ValidationError
@@ -80,7 +80,7 @@ function ContactUs() {
                   type="text"
                   name="company"
                   id="company"
-                  className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-3xl"
+                  className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-xl"
                   required
                 />
                 <ValidationError
@@ -99,7 +99,7 @@ function ContactUs() {
                   type="text"
                   name="email"
                   id="email"
-                  className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-3xl"
+                  className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-xl"
                   required
                 />
                 <ValidationError
@@ -116,7 +116,7 @@ function ContactUs() {
                   type="tel"
                   name="phone"
                   id="phone"
-                  className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-3xl"
+                  className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-xl"
                   required
                 />
                 <ValidationError
@@ -132,7 +132,7 @@ function ContactUs() {
             <textarea
               id="message"
               name="message"
-              className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-3xl"
+              className="p-4 tracking-widest rounded-xl bg-input-field border w-full text-xl"
               rows={6}
               required
             />

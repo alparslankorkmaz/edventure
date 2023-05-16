@@ -7,7 +7,7 @@ import ContactUs from "@/components/ContactUs";
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-32">
+    <main className="container mx-auto p-3 md:px-32">
       <Header />
       <Hero />
       <Content />

@@ -8,6 +8,15 @@ body {
   background-color: #f4f3ee;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
   font-family: rama-gothic-c, sans-serif;
 }
 
