@@ -2,7 +2,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Content from "@/components/Content";
-import HowWeWork from "@/components/HowWeWork";
+import How from "@/components/How";
 import CallToAction from "@/components/CallToAction";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Content />
-      <HowWeWork />
+      <How />
       <CallToAction />
       <ContactUs />
       <Footer />

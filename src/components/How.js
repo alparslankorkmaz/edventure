@@ -1,4 +1,4 @@
-export default function HowWeWork() {
+export default function How() {
   return (
     <>
       {/* ------------------------------HOW WE WORK----------------------------- */}
