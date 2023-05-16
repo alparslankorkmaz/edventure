@@ -6,6 +6,7 @@ import HowWeWork from "@/components/HowWeWork";
 import CallToAction from "@/components/CallToAction";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
+import BackToTopButton from "@/components/BackToTopButton";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CallToAction />
       <ContactUs />
       <Footer />
+      <BackToTopButton />
     </main>
   );
 }
