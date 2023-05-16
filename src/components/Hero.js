@@ -19,7 +19,7 @@ export default function Hero() {
         <img
           src="/images/rocket3d.webp"
           alt="3D girl on a rocket"
-          className="col-span-2 mt-0"
+          className="col-span-2 mt-0 updown-animation"
         />
       </div>
     </>

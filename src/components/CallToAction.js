@@ -29,7 +29,7 @@ export default function CallToAction() {
             </p>
           </div>
           <div className="absolute w-100 col-start-3">
-            <img src="/images/getstarted3d.webp" alt="get started!" srcset="" />
+            <img src="/images/getstarted3d.webp" alt="get started!" />
           </div>
         </div>
       </div>

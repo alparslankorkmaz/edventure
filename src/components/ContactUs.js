@@ -26,7 +26,7 @@ export default function ContactUs() {
               <img
                 src="/images/lasergun3d.webp"
                 alt="3D character with laser guns"
-                className="w-2/5 absolute right-11"
+                className="w-2/5 absolute right-11 updown-animation"
               />
             </div>
           </div>
@@ -153,7 +153,7 @@ export default function ContactUs() {
             <img
               src="/images/lasergun3d.webp"
               alt="3D character with laser guns"
-              className="w-2/5 absolute right-11"
+              className="w-2/5 absolute right-11 updown-animation"
             />
           </div>
         </div>
