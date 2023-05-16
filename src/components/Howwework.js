@@ -1,8 +1,8 @@
-export default function Howwework() {
+export default function HowWeWork() {
   return (
     <>
       {/* ------------------------------HOW WE WORK----------------------------- */}
-      <div className="how-we-work mb-64">
+      <div className="how-we-work mb-48">
         <h2 className="uppercase text-7xl font-bold text-center mt-11 tracking-wide">
           how we{" "}
           <span className="bg-hero-pattern bg-cover bg-clip-text text-transparent inline-block">
