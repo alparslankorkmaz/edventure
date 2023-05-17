@@ -48,7 +48,7 @@ export default function ContactUs() {
           <img src="/images/doodle.png" alt="doodle" className="w-32 mt-7" />
         </div>
 
-        <div className="form-container grid md:grid-cols-5 my-20">
+        <div className="form-container grid md:grid-cols-5 md:my-20 mx-6 md:mx-0">
           <div className="col-span-3">
             <form onSubmit={handleSubmit} className="flex flex-col">
               <div className="grid md:grid-cols-12 gap-3">
@@ -156,6 +156,13 @@ export default function ContactUs() {
               className="w-2/5 absolute right-11 updown-animation"
             />
           </div>
+        </div>
+        <div className=" md:hidden">
+          <img
+            src="/images/lasergun3d.webp"
+            alt="3D character with laser guns"
+            className=" updown-animation"
+          />
         </div>
       </div>
     </>
