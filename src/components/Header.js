@@ -5,7 +5,7 @@ export default function Header() {
   };
   return (
     <>
-      <header className="p-5 flex justify-between items-center">
+      <header className="py-5 flex justify-between items-center">
         <img
           src="/images/logo.png"
           alt="EdVenture Logo"
