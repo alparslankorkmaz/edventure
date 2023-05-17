@@ -16,8 +16,8 @@ export default function How() {
             className="w-32 mt-7 mb-32"
           />
         </div>
-        <div className="grid grid-cols-4 mb-11">
-          <div className="p-3">
+        <div className="grid grid-cols-4 mb-11 gap-8 md:gap-0">
+          <div className="p-3 col-span-4 md:col-span-1">
             <h4 className="uppercase text-6xl font-bold m-auto mb-5 tracking-wide">
               <span className="block text-discovery-orange">Discovery</span> and
               Strategy
@@ -28,7 +28,7 @@ export default function How() {
               gamification strategy that aligns with your brand and objectives.
             </p>
           </div>
-          <div className="p-3">
+          <div className="p-3 col-span-4 md:col-span-1">
             <h4 className="uppercase text-6xl font-bold m-auto mb-5 tracking-wide">
               <span className="block text-game-blue"> game </span> development
             </h4>
@@ -39,7 +39,7 @@ export default function How() {
               delightful user experience.
             </p>
           </div>
-          <div className="p-3">
+          <div className="p-3 col-span-4 md:col-span-1">
             <h4 className="uppercase text-6xl font-bold m-auto mb-5 tracking-wide">
               <span className="block text-play-green"> play </span> and promote
             </h4>
@@ -50,7 +50,7 @@ export default function How() {
               awareness and engagement.
             </p>
           </div>
-          <div className="p-3">
+          <div className="p-3 col-span-4 md:col-span-1">
             <h4 className="uppercase text-6xl font-bold m-auto mb-5 tracking-wide">
               <span className="block text-track-pink"> track </span> and
               optimise

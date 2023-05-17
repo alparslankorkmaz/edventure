@@ -10,7 +10,7 @@ import BackToTopButton from "@/components/BackToTopButton";
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-3 md:px-32">
+    <main className="container mx-auto px-3 lg:px-32">
       <Header />
       <Hero />
       <Content />

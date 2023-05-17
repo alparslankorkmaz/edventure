@@ -48,10 +48,10 @@ export default function ContactUs() {
           <img src="/images/doodle.png" alt="doodle" className="w-32 mt-7" />
         </div>
 
-        <div className="form-container grid grid-cols-5 my-20">
+        <div className="form-container grid md:grid-cols-5 my-20">
           <div className="col-span-3">
             <form onSubmit={handleSubmit} className="flex flex-col">
-              <div className="grid grid-cols-12 gap-3">
+              <div className="grid md:grid-cols-12 gap-3">
                 <div className="col-span-6">
                   <label htmlFor="name" className="text-xl">
                     <p className="py-5">Name</p>
@@ -87,7 +87,7 @@ export default function ContactUs() {
                   />
                 </div>
               </div>
-              <div className="grid grid-cols-12 gap-3">
+              <div className="grid md:grid-cols-12 gap-3">
                 <div className="col-span-6">
                   <label htmlFor="email" className="text-xl">
                     <p className="py-5">Email Address</p>
@@ -149,7 +149,7 @@ export default function ContactUs() {
               </div>
             </form>
           </div>
-          <div className="">
+          <div className="hidden md:block">
             <img
               src="/images/lasergun3d.webp"
               alt="3D character with laser guns"
