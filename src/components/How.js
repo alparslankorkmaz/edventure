@@ -57,8 +57,8 @@ export default function How() {
             </h4>
             <p className="">
               At EdVenture, we believe in data-driven decision-making. We
-              monitor and analyze the performance of your gamified campaigns,
-              allowing us to fine-tune strategies and optimize results.
+              monitor and analyse the performance of your gamified campaigns,
+              allowing us to fine-tune strategies and optimise results.
             </p>
           </div>
         </div>

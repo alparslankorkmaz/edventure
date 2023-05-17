@@ -35,7 +35,7 @@ export default function CallToAction() {
                 Partner with EdVenture to transform your marketing efforts,
                 reach new heights of engagement, and attract your target
                 audience like never before. Contact us now to embark on an
-                adventure that will revolutionize your brand.
+                adventure that will revolutionise your brand.
               </p>
               <div className=" md:hidden w-100 mt-14">
                 <img

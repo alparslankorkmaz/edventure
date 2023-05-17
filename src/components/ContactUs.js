@@ -54,7 +54,7 @@ export default function ContactUs() {
               <div className="grid md:grid-cols-12 gap-3">
                 <div className="col-span-6">
                   <label htmlFor="name" className="text-xl">
-                    <p className="py-5">Name</p>
+                    <p className="py-5 text-base">Name</p>
                   </label>
                   <input
                     type="text"
@@ -71,7 +71,7 @@ export default function ContactUs() {
                 </div>
                 <div className="col-span-6">
                   <label htmlFor="company" className="text-xl">
-                    <p className="py-5">Company Name</p>
+                    <p className="py-5 text-base">Company Name</p>
                   </label>
                   <input
                     type="text"
@@ -90,7 +90,7 @@ export default function ContactUs() {
               <div className="grid md:grid-cols-12 gap-3">
                 <div className="col-span-6">
                   <label htmlFor="email" className="text-xl">
-                    <p className="py-5">Email Address</p>
+                    <p className="py-5 text-base">Email Address</p>
                   </label>
                   <input
                     type="text"
@@ -107,7 +107,7 @@ export default function ContactUs() {
                 </div>
                 <div className="col-span-6">
                   <label htmlFor="phone" className="text-xl">
-                    <p className="py-5">Contact Number</p>
+                    <p className="py-5 text-base">Contact Number</p>
                   </label>
                   <input
                     type="tel"
@@ -124,7 +124,7 @@ export default function ContactUs() {
                 </div>
               </div>
               <label htmlFor="message" className="text-xl">
-                <p className="py-5">Ask us a question</p>
+                <p className="py-5 text-base">Ask us a question</p>
               </label>
               <textarea
                 id="message"
