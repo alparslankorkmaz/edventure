@@ -1,4 +1,8 @@
 export default function Hero() {
+  const scroll = () => {
+    const section = document.querySelector("#contact-us");
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return (
     <>
       <div className="hero grid grid-cols-5 ">
