@@ -1,10 +1,10 @@
 export default function Hero() {
   return (
     <>
-      <div className="hero grid grid-cols-3 ">
-        <div className="hero-text col-span-1 mt-11">
-          <h1 className="uppercase text-7xl font-bold tracking-wide pb-5">
-            <span className="bg-hero-pattern bg-cover bg-clip-text text-transparent inline-block">
+      <div className="hero grid grid-cols-5 ">
+        <div className="hero-text col-span-2 mt-11">
+          <h1 className="uppercase text-7xl font-bold tracking-wide pb-5 bg-hero-pattern bg-cover bg-clip-text  ">
+            <span className="text-transparent">
               {" "}
               captivate, educate, and attract{" "}
             </span>{" "}
@@ -19,7 +19,7 @@ export default function Hero() {
         <img
           src="/images/rocket3d.webp"
           alt="3D girl on a rocket"
-          className="col-span-2 mt-0 updown-animation"
+          className="col-span-3 mt-0 updown-animation"
         />
       </div>
     </>
