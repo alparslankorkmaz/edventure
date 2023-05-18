@@ -2,7 +2,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function ContactUs() {
-  const [state, handleSubmit] = useForm("xlekaeal");
+  const [state, handleSubmit] = useForm(process.env.formKey);
   if (state.succeeded) {
     return (
       <>
