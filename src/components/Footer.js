@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
@@ -12,12 +14,14 @@ export default function Footer() {
             />
           </div>
           <div className="footer w-full bg-[#2D2D2D] rounded-t-3xl p-6 grid md:grid-cols-2 md:gap-44 items-center absolute z-10 top-10 md:bottom-0 md:top-10">
-            <div className="flex m-auto">
-              <img
-                src="/images/logo.png"
-                alt="Edventure Logo"
-                className="w-48"
-              />
+            <div className="mx-auto md:mx-0">
+              <Link href="/">
+                <img
+                  src="/images/logo.png"
+                  alt="Edventure Logo"
+                  className="w-48"
+                />
+              </Link>
             </div>
             <div className="">
               <p className="text-white text-center md:text-right mt-8 md:mt-0">
