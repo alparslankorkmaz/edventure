@@ -27,9 +27,9 @@ export default function Hero() {
         />
         <button
           onClick={scroll}
-          className="md:hidden col-span-2 order-last md:order-first mt-10 p-6 max-h-4 text-3xl tracking-wider rounded-md bg-hero-pattern bg-cover uppercase text-white font-semibold flex flex-col items-center justify-center"
+          className="md:hidden col-span-3 order-last md:order-first mt-10 p-6 max-h-4 text-4xl tracking-wider rounded-md bg-hero-pattern bg-cover  text-white font-semibold flex flex-col items-center justify-center"
         >
-          contact us
+          Discover your EdVenture
         </button>
       </div>
     </>

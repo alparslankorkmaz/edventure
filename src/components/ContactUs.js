@@ -138,7 +138,37 @@ export default function ContactUs() {
                 field="message"
                 errors={state.errors}
               />
-              <div className="flex justify-end">
+              <div className="privacy grid grid-cols-4 items-center lg:justify-items-center">
+                <label
+                  htmlFor="privacy"
+                  className="block text-base font-thin col-span-4 lg:col-span-3"
+                >
+                  We use Your Personal data to provide and improve the Service.
+                  By using the Service, You agree to the collection and use of
+                  information in accordance with this{" "}
+                  <a
+                    className="underline"
+                    target="_blank"
+                    href="https://www.freeprivacypolicy.com/live/cee1bdb0-99a4-434e-8878-9ba657c383b6"
+                  >
+                    Privacy Policy
+                  </a>{" "}
+                  .
+                </label>
+                <input
+                  type="checkbox"
+                  className="col-span-4 md:col-span-1 my-5 p-3 bg-green-100 border-green-300 text-green-500 focus:ring-green-200"
+                  name="_optin"
+                  id="_optin"
+                  required
+                />
+                <ValidationError
+                  prefix="Privacy"
+                  field="_optin"
+                  errors={state.errors}
+                />
+              </div>
+              <div className="flex justify-center lg:justify-end">
                 <button
                   type="submit"
                   disabled={state.submitting}
