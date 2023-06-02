@@ -140,7 +140,7 @@ export default function ContactUs() {
               />
               <div className="privacy grid grid-cols-4 items-center lg:justify-items-center">
                 <label
-                  htmlFor="privacy"
+                  htmlFor="_optin"
                   className="block text-base font-thin col-span-4 lg:col-span-3"
                 >
                   We use Your Personal data to provide and improve the Service.
