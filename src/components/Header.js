@@ -18,7 +18,7 @@ export default function Header() {
         </Link>
         <button
           onClick={scroll}
-          className="hidden p-6 max-h-4 text-3xl tracking-wider rounded-md bg-hero-pattern bg-cover text-white font-semibold md:flex flex-col items-center justify-center"
+          className="hidden uppercase p-6 max-h-4 text-3xl tracking-wider rounded-md bg-hero-pattern bg-cover text-white font-semibold md:flex flex-col items-center justify-center"
         >
           Discover your EdVenture
         </button>
